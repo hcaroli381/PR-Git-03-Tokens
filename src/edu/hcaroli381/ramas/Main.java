@@ -12,7 +12,7 @@ public class Main {
 		while (bolas.size() < 5) {
 			bolas.add(r.nextInt(49) + 1);
 		}
-		System.out.println("Números principales: " + bolas);
+		System.out.println("Números princiqweeeepales: " + bolas);
 		int complementario = r.nextInt(49) + 1;
 		System.out.println("Complementario: " + complementario);
 		int suma = bolas.stream().mapToInt(Integer::intValue).sum();
